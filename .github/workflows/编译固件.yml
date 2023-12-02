@@ -105,7 +105,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     - name: xx
-      run: cd openwrt && git checkout v23.05.3
+      run: cd openwrt && git checkout v23.05.2
 
     - name: 更新feeds
       run: cd openwrt && ./scripts/feeds update -a
